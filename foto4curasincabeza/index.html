@@ -43,12 +43,14 @@
       
       <a-assets>
         <video id="mivideo" src="./Curasincabeza.mp4" preload="auto" loop="true" playsinline webkit-playsinline></video>
+	<img id="mititulo" src="./logo.png">
       </a-assets>
 
       <a-camera position="0 0 0" look-controls="enabled: false"></a-camera>
 
       <a-entity mindar-image-target="targetIndex: 0">
         <a-video src="#mivideo" position="0 0 0" height="1.777" width="1" rotation="0 0 0"></a-video>
+	<a-image src="#mititulo" position="0 1.1 0" width="1" height="0.3"></a-image>
       </a-entity>
     </a-scene>
 
